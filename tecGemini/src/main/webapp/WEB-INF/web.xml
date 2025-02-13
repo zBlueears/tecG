@@ -1,0 +1,16 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         version="3.0">
+    <servlet>
+        <servlet-name>InsertPropertyServlet</servlet-name>
+        <servlet-class>tecGemini.InsertPropertyServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>InsertPropertyServlet</servlet-name>
+        <url-pattern>/InsertPropertyServlet</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>property_form.html</welcome-file>
+    </welcome-file-list>
+</web-app>

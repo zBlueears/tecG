@@ -5,3 +5,4 @@
 # required dependencies are added in pom.xml
 # to process jsp files and java servlets, tomcat was used
 # web.xml was the deployment descriptor the java web application
+# property(2).sql is the database used 
